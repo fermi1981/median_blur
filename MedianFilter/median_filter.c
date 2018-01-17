@@ -148,7 +148,7 @@ void MedianFilter(Filter_Box *box)
     int limit_w = (box->width-sf_x);
     int limit_size = limit_w;
     
-    int offset = 0;
+    int offset = sf_y*line_size;;
     int tmp_value;
     
     
